@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-image: url(./mountain.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    line-height: 1.5em;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 5em;
+    line-height: 1em;
+    margin: .5em .5em;
+}
+
+span {
+    font-size: 1.75em;
+}
+
+.date {
+    margin-top: 12em;
+}
